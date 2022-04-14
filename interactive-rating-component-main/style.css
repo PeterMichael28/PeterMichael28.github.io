@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    min-width: 376x;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.container{
+    width: 350px;
+    height: auto;
+    background:  hsl(213, 15%, 10%);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 17px;
+    border: 1px solid hsl(213, 15%, 10%);
+
+}
+.svg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: auto;
+    background-color: hsl(210, 10%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+}
+.text{
+    color: white;
+    text-align: left;
+    line-height: 1.5rem;
+    letter-spacing: .2rem;
+}
+.text h1{
+    margin-bottom: 1.3rem;
+}
+button{
+    cursor: pointer;
+}
+.btns{
+    margin-top: 1.4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    padding: auto;
+    border-radius: 50%;
+    margin: 5px;
+    color: white;
+    font-size: 17px;
+    background-color:hsl(210, 10%, 20%) ;
+    border: 1px solid hsl(213, 19%, 18%);
+    transition: .3s ease background-color;
+}
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.active{
+    background-color: grey;
+}
+
+.submit {
+    margin-top: 1.2rem;
+    width: 93%;
+    border-radius:20px;
+    padding: auto;
+    height: 45px;
+    background-color:  hsl(25, 97%, 53%);
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: .2rem;
+    border: none;
+}
+    
+.attribution{
+    color: white;
+    margin-top: 1.3rem;
+}
+
+.image{
+    margin: 20px auto;
+
+}
+
+.result{
+    padding: 7px 15px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 10px;
+    width: 60%;
+    margin: 5px auto;
+    margin-bottom: 15px;
+}
+
+.thank-you .text{
+    text-align: center;
+    margin: 15px auto;
+}
+.thank-you{
+    display: none;
+  
+}
+/* .cont-1 {
+    display: none;
+} */
