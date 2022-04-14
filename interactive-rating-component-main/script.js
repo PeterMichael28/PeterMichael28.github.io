@@ -7,11 +7,13 @@ let result = document.querySelector(".res-text")
 
 
 btns.forEach(btn => {
-    btn.addEventListener("click", (e) => {
-        // if(e.target.classList.toString().includes("active")) {
-    
-        // }
-        btn.classList.toggle('active')
+    btn.addEventListener("click", () => {
+        const pre = document.querySelector(".active")
+        if (pre) {
+            pre.classList.remove("active")
+            
+        }
+        btn.classList.add('active')
         const rating = btn.innerText
         result.innerText = `You Selected ${rating} out of 5`
 
