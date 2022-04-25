@@ -9,15 +9,15 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1440px;
-    min-width: 376x;
+    /* max-width: 1440px; */
+    /* min-width: 376x; */
     flex-direction: column;
     height: 100vh;
 
 }
 
 .container{
-    width: 350px;
+    width: 80%;
     height: auto;
     background:  hsl(213, 15%, 10%);
     padding: 15px 20px;
@@ -119,6 +119,10 @@ button{
     display: none;
   
 }
-/* .cont-1 {
-    display: none;
-} */
+
+@media only screen and (min-width:600px){
+    .container{
+        width: 400px;
+    }
+
+}
